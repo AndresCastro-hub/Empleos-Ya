@@ -1,0 +1,205 @@
+  *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;   
+}
+
+
+body{background-color:white;
+    }
+
+/*INDEX.HTML*/
+
+.titulo {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 5px;
+    animation:pulse;
+    animation-duration: 1s;
+    padding: 5px;
+}
+
+.h2{
+    margin-top: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: left;
+    font-size: 2em;
+    padding: 5px;
+}
+
+.subtitulos{
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 1em;
+    justify-content:left;
+    padding: 5px;
+}
+
+.segundosTitulos{
+    color: black;
+    padding: 5px;
+}
+
+.descripcion{
+    color: black;
+    padding: 5px;
+    font-size: 1em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text{
+    color: white;
+
+
+}
+
+/*Nosotros */
+
+.descripcion{
+    font-size: 1.2em;
+    justify-content: left;
+}
+
+.sub{
+    font-size: 1.7em;
+    color: whitesmoke;
+    margin-top:10px;
+    padding: 5px;
+    background-color:lightsteelblue;    
+}
+
+.iframe{
+    text-align: center;
+}
+
+/*Asistencia*/
+
+.subtituloAsistencia{
+    background-color: #bdd4e7;
+    background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;  
+}
+
+.textoSuperior{
+    margin-top: 10px;
+    padding: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1em;
+}
+
+.tercerTitulo{
+    margin-top: 10px;
+    padding: 3px;
+    color:royalblue;
+    background-color:whitesmoke ;
+}
+
+.cuartoTitulo{
+    margin-top: 10px;
+    padding: 4px;
+    color: royalblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.descripcionAsistencia{
+    margin-top: 10px;
+    padding: 4px;
+    font-size: 1.1em;
+    font-style: oblique;
+}
+
+/*Que Estudiar*/
+
+.tituloTecnologia{
+    font-size: 2em;
+    margin-top: 10px;
+    padding: 5px 40px 0px 20px ;
+}
+
+.descripcionTecnologia{
+    font-size: 1.3em;
+    margin-top: 10px;
+    padding: 5px 40px 0px 20px ;
+}
+
+.descripcionImage{
+    margin-top: 10px;
+    padding: 5px 40px 0px 20px ;
+    font-size: 1.3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.subtituloTecnologia{
+    margin-top: 10px;
+    padding: 5px 40px 0px 20px ;
+    color: teal;
+}
+
+.descripcionesTecnologia{
+    margin-top: 10px;
+    padding: 5px 40px 0px 20px ;
+    font-size: 1.2em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:unset;
+}
+
+/*Contacto*/
+
+.contacto{
+    background-image: url(../img/tecnologia-futuro-y-nuevos-empleos-880-min.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+form{
+    width: 400px;
+    margin: auto;
+    background: rgba(0,0,0,0,4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+.formulario{
+    color:black;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input,textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    border: none;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton{
+    background: black;
+    color: white;
+    padding: 15px;
+}
+
+#boton:hover{
+    cursor: pointer;
+}
+
+@media (max-width:480px) {
+    form{
+        width: 100%;
+    }
+}
