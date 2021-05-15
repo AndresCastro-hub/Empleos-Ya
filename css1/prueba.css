@@ -74,7 +74,8 @@ ul{
 
 .subtituloIndex__subtitulo {
   margin-top: 10px;
-  font-family: 'Noto Sans JP', sans-serif;
+  margin-left: 10px;
+  font-family: 'Roboto', sans-serif;
   text-align: left;
   font-size: 2em;
   padding: 5px; }
@@ -83,24 +84,38 @@ ul{
   color: black;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: left;
-  margin-top: 10px;
-  font-size: 1em;
+  margin-top: 8px;
+  margin-left: 0px;
+  font-size: 1.1em;
+  line-height: 30px;
   justify-content: left;
-  padding: 5px; }
+  }
+
+.descripcionIndex__descripciondos{
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+  margin-top: 4px;
+  margin-left: 0px;
+  font-size: 1.1em;
+ justify-content: left;}
+
 
 .descripcionIndex__segundoTitulo {
-  color: black;
-  padding: 5px; }
+  color: black; 
+  margin-left: 0px;}
 
 .descripcionImage__titleImage {
   color: black;
-  padding: 5px; }
+  margin-left: 0px;}
 
 .descripcionImage__descripcion {
   color: black;
-  padding: 5px;
-  font-size: 1em;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  line-height: 30px;
+  font-size: 1.1em;
+  font-family: 'Nunito', sans-serif;
+  margin-left: 0px;
+  margin-top: 8px;}
 
 .container__text {
   color: white; }
