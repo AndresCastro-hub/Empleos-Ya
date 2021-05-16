@@ -8,13 +8,66 @@
 body{background-color:white;
 }
 
-/*INDEX.HTML */ 
-
 $color:black;
 $fuente:1em;
 $padding:5px;
 
 
+/*Menu*/
+
+.navbar{
+    background: black;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.nav-link:hover{
+  color: violet;
+}
+
+.navbar-brand{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.8em;
+  font-weight: 500;
+  color: white;
+}
+
+.navbar-brand:hover{
+  color: violet;
+}
+
+ul{
+  list-style-type: none;
+}
+  
+.navbar-toggler span{
+  display: block;
+  width: 20px;
+  height: 15px;
+  border: 10px;
+  background: rgb(216, 76, 216);
+  border-radius: 20px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+  padding: 1rem 1.2rem;
+  font-size: 1.1rem;
+  position: relative;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+  border-top: 4px solid #c749b6;
+  color: violet;
+}
+
+/*Fin del Menu*/
+
+
+/*INDEX.HTML */ 
 
 .title__titulo{
     color: $color;
@@ -147,3 +200,40 @@ $padding:5px;
 /*Finde Asistencia*/
 
 /*Que estudiar*/
+
+.queEstudiar__tituloTecnologia{
+    font-size: 2em;
+    margin-top: 10px;
+    padding: 5px 40px 0px 20px ;
+}
+
+.queEstudiar__descripcionTecnologia{
+    font-size: 1.3em;
+    margin-top: 10px;
+    padding: 5px 40px 0px 20px ;
+}
+
+.carreras__descripcionImage{
+    margin-top: 10px;
+    padding: 5px 40px 0px 20px ;
+    font-size: 1.3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.carreras__subtituloTecnologia{
+    margin-top: 10px;
+    padding: 5px 40px 0px 20px ;
+    color: teal;
+}
+
+.carreras__descripcionesTecnologia{
+    margin-top: 10px;
+    padding: 5px 40px 0px 20px ;
+    font-size: 1.2em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:unset;
+}
+
+/*Fin de Que Estudiar*/
+
+/*Contacto*/
