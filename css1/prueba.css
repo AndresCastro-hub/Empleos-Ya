@@ -190,13 +190,13 @@ ul {
 /*Fin de Que Estudiar*/
 /*Contacto*/
 .contacto {
-  background-image: url(../img/tecnologia-futuro-y-nuevos-empleos-880-min.jpg);
+  background-image: url(../img/tecnologia-1-e1585519785709.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
   margin: 0; }
 
 .contacto__formulario {
-  color: black;
+  color:black;
   text-align: center;
   font-size: 30px;
   margin-bottom: 20px; }
