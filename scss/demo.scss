@@ -143,6 +143,49 @@ ul{
     color: white;
 }
 
+/*FOOTER*/
+
+.site-footer{
+    padding: 5em 0;
+    background:black;
+    font-size: 14px;
+    color: white;
+}
+
+.site-footer p:last-child{
+    margin-bottom:0 ;    
+}
+
+.site-footer a{
+    color: rgb(216, 193, 193);
+    border-bottom: 1px solid transparent;
+}
+
+.site-footer a:hover{
+    color:rgb(0, 195, 255);
+}
+
+.site-footer h2{
+    font-size: 22px;
+    margin-bottom: 28px;
+    letter-spacing: .05em;
+    color: rgb(231, 52, 231) ;
+}
+
+.site-footer .footer-link li {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.footer-social{
+    list-style: none;
+}
+
+/*Fin del footer*/
+
+
+
+
 /*FIN DEL INDEX.HTML*/
 
 /*NOSOTROS*/

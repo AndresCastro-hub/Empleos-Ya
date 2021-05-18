@@ -113,6 +113,37 @@ ul {
 .container__text {
   color: white; }
 
+/*FOOTER*/
+.site-footer {
+  padding: 5em 0;
+  background: black;
+  font-size: 14px;
+  color: white; }
+
+.site-footer p:last-child {
+  margin-bottom: 0; }
+
+.site-footer a {
+  color: #d8c1c1;
+  border-bottom: 1px solid transparent; }
+
+.site-footer a:hover {
+  color: #00c3ff; }
+
+.site-footer h2 {
+  font-size: 22px;
+  margin-bottom: 28px;
+  letter-spacing: .05em;
+  color: #e734e7; }
+
+.site-footer .footer-link li {
+  line-height: 1.5;
+  margin-bottom: 15px; }
+
+.footer-social {
+  list-style: none; }
+
+/*Fin del footer*/
 /*FIN DEL INDEX.HTML*/
 /*NOSOTROS*/
 .descripcionNosotros__sub {
