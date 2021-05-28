@@ -392,6 +392,26 @@ form{
 
 /*MEDIA QUERIES*/
 
+@media (min-width : 320px) and (max-width : 480px){
+
+  .boton{
+    display: none;
+  }
+
+  .indice__boton{
+      display: none;
+  }
+
+  form{
+    width: 100%;
+    }
+  
+  .img-fluid{
+  padding-left: 0px;
+  }
+
+}
+
 @media (min-width: 481px) and (max-width: 767px) {
   
   .boton{
