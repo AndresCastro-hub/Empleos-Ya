@@ -354,7 +354,7 @@ form {
   form {
     width: 100%; }
   .img-fluid {
-    padding-left: 2px; } }
+    padding-left: 0px; } }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: horizontal) {
   .boton {
@@ -362,7 +362,7 @@ form {
   .indice__boton {
     display: none; }
   .img-fluid {
-    padding-left: 2px; } }
+    padding-left: 0px; } }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .boton {
@@ -370,4 +370,4 @@ form {
   .indice__boton {
     display: none; }
   .img-fluid {
-    padding-left: 2px; } }
+    padding-left: 0px; } }
